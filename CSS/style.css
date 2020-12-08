@@ -1,0 +1,75 @@
+.topNav{
+    display: flex;
+    vertical-align: top;
+    /* position: absolute; */
+}
+.logo{
+    display: flex;
+    width: 2%;
+    text-align: left;
+}
+
+.imageLogo{
+    width: 30px;
+    height: 70px;
+}
+
+.navContainer{
+    display: flex;
+    width: 98%;
+    justify-content: space-evenly;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    width: 50%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.leftSide{
+    margin: 0;
+}
+
+.rightSide{
+    margin: 0;
+}
+
+.heroImg{
+    
+    padding: 25px;
+    size: 50px;
+    z-index: 20;
+    
+}
+
+#myPic{
+    width: 100px;
+}
+
+.content{
+    margin: 0 auto;
+}
+.bottomNav{
+    background-color: #373738;
+    padding-left: 25%;
+    padding-right: 25%;
+    vertical-align: baseline;
+}
+bottomNav-ul{
+display: inline-block;
+vertical-align: top;
+padding: 5%;
+}
+.image{
+    size: 50px;
+}
